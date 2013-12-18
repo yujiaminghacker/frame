@@ -1,0 +1,20 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>show </title>
+</head>
+<body>
+<h1><a href="?c=Article&m=add">添加</a></h1>
+{section loop="$data" name="n"}
+	<li>title:{$data[n].title}
+		con:{$data[n].con}
+		<a href="?c=Article&m=edit&aid={$data[n].aid}">
+			\<编辑
+		</a> |
+		<a href="?c=Article&m=del&aid={$data[n].aid}">
+			删除>
+		</a> |
+	 </li>
+{/section}
+</body>
+</html>

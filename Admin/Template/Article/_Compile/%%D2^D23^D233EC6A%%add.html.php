@@ -1,0 +1,31 @@
+<?php /* Smarty version 2.6.26, created on 2013-12-18 19:18:42
+         compiled from add.html */ ?>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>发表文章</title>
+</head>
+<body>
+<form action="?c=Article&m=add" method="post">
+	<table border=1>
+		<tr>
+			<th>标题</th>
+			<td>
+				<input type="text" name="title" />
+			</td>
+		</tr>
+		<tr>
+			<th>内容</th>
+			<td>
+				<textarea name="con" ></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="提交">
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
